@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task-2</title>
+    <style>
+        /* Vertical Navigation Bar */
+        .vertical-nav {
+            width: 200px;
+            background-color: #b0e0e6;
+            padding: 0;
+            list-style-type: none;
+            border: 1px solid #000;
+        }
+        .vertical-nav li {
+            display: block;
+        }
+        .vertical-nav li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        .vertical-nav li a.home {
+            background-color: orange;
+            color: white;
+        }
+
+        /* Horizontal Navigation Bar */
+        .horizontal-nav {
+            display: flex;
+            background-color: #d3d3d3;
+            border: 1px solid #000;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .horizontal-nav li {
+            border-right: 1px solid #000;
+        }
+        .horizontal-nav li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        .horizontal-nav li a.home {
+            background-color: #a9a9a9;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task-2</h1>
+    <h2>Vertical Navigation Bar</h2>
+    <ul class="vertical-nav">
+        <li><a href="#" class="home">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+    </ul>
+
+    <h2>Horizontal Navigation Bar</h2>
+    <ul class="horizontal-nav">
+        <li><a href="#" class="home">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+    </ul>
+</body>
+</html>
